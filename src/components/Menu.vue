@@ -14,7 +14,7 @@
                     <tr>
                         <td><strong>{{ item.name }}</strong></td>
                     </tr>
-                    <tr v-for="option in item.options">
+                    <tr v-for="option in item.options" :key="option['.key']">
                         <td>{{ option.size }}</td>
                         <td>{{ option.price }}</td>
                         <td><button class="btn btn-sm btn-outline-success" 
@@ -36,7 +36,7 @@
                             <th>Total</th>
                         </tr>
                     </thead>
-                    <tbody v-for="item in basket">
+                    <tbody v-for="item in basket" :key="item['.key']">
                         <tr>
                             <td>
                                 <button class="btn btn-sm btn-outline-success" 
