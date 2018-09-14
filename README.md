@@ -1,6 +1,6 @@
 # pizza-planet
 
-> A Vue.js project, Pizza-planet
+> A Vue.js project, Pizza-planet - Demo: https://wizardly-fermi-031bb3.netlify.com/
 
 ## Build Setup
 
